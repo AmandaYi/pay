@@ -1,0 +1,312 @@
+html,
+body {
+  font-size: 12px;
+  font-family: "Microsoft YaHei";
+}
+.clearfix::after,
+.clearfix::before {
+  content: "";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+.container-fluid .header {
+  height: 30px;
+  background: #f9f9f9;
+}
+.container-fluid .header .header-left {
+  font-size: 12px;
+  line-height: 30px;
+  height: 30px;
+  color: #000;
+}
+.container-fluid .header .header-right ul.navone {
+  list-style: none;
+  float: right;
+}
+.container-fluid .header .header-right ul.navone li.lione {
+  float: left;
+}
+.container-fluid .header .header-right ul.navone li.lione a {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #000;
+  text-decoration: none;
+}
+.container-fluid .header .header-right ul.navone li.lione a:hover {
+  color: #ff7800;
+  text-decoration: underline;
+}
+.container-fluid .banner .banner-left h2 {
+  font-size: 22px;
+  color: #818181;
+  padding-left: 20px;
+  border-left: 1px solid #b4b4b4;
+}
+.container-fluid .content {
+  background: url("../images/bj.png");
+  background-repeat: repeat-x;
+  height: 600px;
+}
+.container-fluid .content .arc-left img {
+  margin-top: 58px;
+}
+.container-fluid .content .arc-left .name {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.container-fluid .content .arc-left .desc {
+  font-size: 16px;
+}
+.container-fluid .content .arc-left .desc .spiec {
+  color: #aaaaaa;
+}
+.container-fluid .content .arc-left .spiecp {
+  color: #aaaaaa;
+}
+.container-fluid .content .arc-right form {
+  margin-top: 30px;
+  padding-top: 30px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.container-fluid .content .arc-right form p {
+  margin-top: 20px;
+}
+.container-fluid .content .arc-right form p .name {
+  font-size: 16px;
+  color: #000;
+  display: inline-block;
+}
+.container-fluid .content .arc-right form p .name .sepspn {
+  color: red;
+  margin-right: 11px;
+}
+.container-fluid .content .arc-right form p #username,
+.container-fluid .content .arc-right form p #username2 {
+  border: 1px solid #999!important;
+}
+.container-fluid .content .arc-right form p select,
+.container-fluid .content .arc-right form p input {
+  display: inline-block;
+  width: 45%;
+  height: 28px;
+}
+.container-fluid .content .arc-right form p .btnsub {
+  background: #fc7929;
+  height: 32px;
+  width: 130px;
+  font-size: 14px;
+  display: inline-block;
+  color: #fff;
+}
+.container-fluid .content .arc-bot {
+  margin-top: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.container-fluid .content .arc-bot ul {
+  margin-top: 9px;
+  margin-right: 9px;
+  background: #fff;
+  list-style: none;
+  margin: 0 auto;
+  width: 80%;
+}
+.container-fluid .content .arc-bot ul li {
+  width: 25%;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+  color: #777;
+  padding-left: 20px;
+  background: pink;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border: 1px solid #999;
+}
+.container-fluid .content .arc-bot ul li.s0 {
+  width: 195px;
+  height: 40px;
+  background: url("../images/sprites.png") no-repeat -12px -463px;
+}
+.container-fluid .content .arc-bot ul li.s1 {
+  width: 195px;
+  height: 40px;
+  background: url("../images/sprites.png") no-repeat -12px -506px;
+}
+.container-fluid .content .arc-bot ul li.s2 {
+  width: 195px;
+  height: 40px;
+  background: url("../images/sprites.png") no-repeat -12px -549px;
+}
+.container-fluid .content .arc-bot ul li.s3 {
+  width: 195px;
+  height: 40px;
+  background: url("../images/sprites.png") no-repeat -12px -590px;
+}
+.container-fluid .content .pay {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  background: #fff;
+  margin-top: 30px;
+  padding-top: 70px;
+}
+.container-fluid .content .pay h2.name {
+  font-size: 26px;
+  color: #666;
+  font-weight: 700;
+}
+.container-fluid .content .pay h2.name img {
+  display: inline;
+  vertical-align: bottom;
+  width: 60px;
+  height: 60px;
+}
+.container-fluid .content .pay p.reda {
+  font-size: 16px;
+  color: #666;
+}
+.container-fluid .content .pay p.reda span {
+  font-size: 14px;
+  color: #f85118;
+  font-weight: 700;
+}
+.container-fluid .content .pay .pay-kind {
+  margin-top: 10px;
+  list-style: none;
+}
+.container-fluid .content .pay .pay-kind li {
+  padding-top: 15px;
+  height: 80px;
+  color: #f00;
+  font-weight: 700;
+  font-size: 13px;
+}
+.container-fluid .content .pay .pay-kind li a {
+  color: #fff;
+  display: inline;
+  font-weight: 700;
+  font-size: 11px;
+  background: #ec4610;
+  margin-left: 2px;
+}
+.container-fluid .content .step3 {
+  margin-top: 30px;
+  background: #fff;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container-fluid .content .step3 .read1 .p0 {
+  font-size: 23px;
+}
+.container-fluid .content .step3 .read1 .p1 {
+  font-size: 14px;
+}
+.container-fluid .content .step3 .read1 .p1 span {
+  color: #ec6d34;
+}
+.container-fluid .content .step3 .read1 .p2 {
+  color: #aaa;
+  font-size: 14px;
+}
+.container-fluid .content .step3 .read1 .p2 span {
+  color: #ec6d34;
+}
+.container-fluid .content .step3 .read1 .p3 {
+  color: #aaa;
+  font-size: 14px;
+}
+.container-fluid .content .step3 .read2 span {
+  font-size: 25px;
+  color: #ec6d34;
+  font-weight: 500;
+}
+.container-fluid .content .arc-step3 {
+  padding-top: 30px;
+  margin-top: 30px;
+  background: #fff;
+}
+.container-fluid .content .arc-step3 .arc-left .p0 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #222;
+}
+.container-fluid .content .arc-step3 .arc-left .p0 span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ec6d34;
+}
+.container-fluid .content .arc-step3 .arc-left .p1 img {
+  width: 300px;
+  height: 300px;
+}
+.container-fluid .content .arc-step3 .arc-left .p2 img {
+  width: 260px;
+  height: 84px;
+}
+.container-fluid .content .arc-step3 .arc-left .p3 a {
+  color: #417bbf;
+  text-decoration: none;
+  font-size: 18px;
+}
+.container-fluid .content .arc-step3 .arc-left .p3 a:hover {
+  text-decoration: underline;
+}
+.container-fluid .content .arc-step3 .arc-left .p4 button {
+  width: 135px;
+  height: 46px;
+  font-size: 22px;
+  color: #fff;
+  background: #de260a;
+}
+.container-fluid .content .arc-step3 .arc-right img {
+  height: 550px;
+  text-align: center;
+}
+.container-fluid .content .arc-step3 .arc-right p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right {
+  margin-top: 70px;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p0 {
+  color: #ec6d34;
+  font-size: 18px;
+  font-weight: 500;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p1,
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p2 {
+  font-size: 15px;
+  color: #666;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p3 a {
+  color: #417bbf;
+  text-decoration: none;
+  font-size: 18px;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p3 a:hover {
+  text-decoration: underline;
+}
+.container-fluid .content .arc-step3 .zhifubao-arc-right .p4 a {
+  display: inline-block;
+  width: 135px;
+  height: 46px;
+  font-size: 22px;
+  color: #fff;
+  background: #de260a;
+}
+.container-fluid .footer .p1 {
+  color: #999;
+}
+.container-fluid .footer .p2 {
+  cursor: pointer;
+}

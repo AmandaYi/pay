@@ -1,0 +1,396 @@
+html,body {
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.clearfix::after,.clearfix::before{
+	content:"";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear:both;
+}
+.container-fluid {
+	.header {
+		height: 30px;
+		background: rgb(249,249,249);
+		.header-left {
+			font-size: 12px;
+			line-height: 30px;
+			height: 30px;
+			color: #000;
+		}
+		.header-right {
+			ul.navone {
+				list-style: none;
+				float: right;
+				li.lione {
+					float: left;
+					a{
+						display: inline-block;
+						height: 30px;
+						line-height: 30px;
+						text-align: center;
+						padding-left: 10px;
+						padding-right: 10px;
+						color: #000;
+						text-decoration: none;
+						&:hover{
+							color: rgb(255,120,0);
+							text-decoration: underline;
+						}
+					}
+
+				}
+
+
+			}
+		}
+	}
+
+	// ====
+	.banner{
+		.banner-left{
+			h2{
+				font-size: 22px;
+				color: rgb(129,129,129);
+				padding-left: 20px;
+				border-left: 1px solid rgb(180,180,180);
+			}
+		}
+		.banner-right{
+		}
+	}
+
+	// ===
+	.content {
+
+		background: url("../images/bj.png");
+		background-repeat: repeat-x;
+		height: 600px;
+			.arc-left {
+				img {
+					margin-top: 58px; 
+				}
+				.name {
+					margin-top: 20px;
+					font-size: 30px;
+
+				}
+				.desc {
+					font-size: 16px;
+					.spiec{
+						color: rgb(170,170,170);
+					}
+				}
+				.spiecp {
+					color: rgb(170,170,170);
+				}
+			}
+			.arc-right{
+				// background: #000; 
+				form {
+					margin-top: 30px;
+					padding-top: 30px;
+					width: 100%;
+					// height: 100px;
+					background: #fff;
+					text-align: center;
+					p {
+						margin-top: 20px;
+						.name {
+							font-size: 16px;
+							color: #000;
+							// float: right;
+							display: inline-block; 
+							.sepspn {
+							color: red;
+							margin-right: 11px;	
+						}
+						}
+
+						#username,#username2 {
+							border: 1px solid #999!important;
+							 // outline: 1px solid #111!important;
+							 // outline: 
+						}
+						select,input {
+							// float: left;
+							display: inline-block;
+							width: 45%; 
+							height: 28px;
+						}
+						.btnsub {
+							background: rgb(252,121,41);
+							height: 32px;
+							width: 130px;
+							font-size: 14px;
+							display: inline-block;
+
+							color: #fff;
+						 
+						}
+						
+					}
+
+			 
+				}
+
+			}
+			.arc-bot {
+				margin-top: 50px;
+					padding-top: 5px;
+					padding-bottom: 5px;
+				ul {
+					margin-top: 9px;
+					margin-right: 9px;
+					background: #fff;
+					list-style: none;
+					margin: 0 auto;
+					width: 80%;
+					li {
+						width: 25%;
+						text-align: center;
+						float: left;
+						font-size: 18px;
+						color: #777;
+						padding-left: 20px;
+						background: pink;
+						padding-top: 9px;
+						padding-bottom: 9px;
+						border: 1px solid #999;
+					}
+					li.s0{
+						width: 195px;
+    					height: 40px;
+					    
+						background: url("../images/sprites.png") no-repeat -12px -463px;
+					 
+					}
+					li.s1{
+						width: 195px;
+    					height: 40px;
+					    
+						background: url("../images/sprites.png") no-repeat -12px -506px;
+					 
+					}
+					li.s2{
+							width: 195px;
+    					height: 40px;
+					    
+						background: url("../images/sprites.png") no-repeat -12px -549px;
+					 
+					}
+					li.s3{
+							width: 195px;
+    					height: 40px;
+					    
+						background: url("../images/sprites.png") no-repeat -12px -590px;
+					 
+					}
+				}
+			}
+
+		// 这里是支付页面
+		.pay {
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+			background: #fff;
+			margin-top: 30px;
+			padding-top: 70px;
+
+			h2.name {
+				font-size: 26px;
+				color: #666;
+				font-weight: 700;
+				img {
+					display: inline;
+					vertical-align: bottom;
+					width: 60px;
+					height: 60px;
+				}
+			}
+			p.reda {
+
+				font-size: 16px;
+				color: #666;
+				span {
+				 font-size: 14px;
+					color: rgb(248,81,24);
+					font-weight: 700;
+				}
+			}
+			.pay-kind {
+				margin-top: 10px;
+				list-style: none;
+				li {
+					
+					padding-top: 15px;
+					height: 80px;
+					color: #f00;
+					font-weight: 700;
+					font-size: 13px;
+					a {
+						// height: 39px;
+						color: #fff;
+						display: inline;
+						font-weight: 700;
+						font-size: 11px;
+						background: rgb(236,70,16);
+						margin-left: 2px;
+					}
+
+				}
+			}
+		}
+		// 这里是支付页面
+		
+
+		// 这里是第三布
+		.step3 {
+			margin-top: 30px;
+			background: #fff;
+			padding-top: 30px;
+			padding-bottom: 30px;
+			.read1{
+				.p0 {
+					font-size: 23px;
+				}
+				.p1 {
+					font-size: 14px;
+					span {
+						color: rgb(236,109,52);
+					}
+				}
+				.p2{
+					color: #aaa;
+					font-size: 14px;
+					span{
+						color: rgb(236,109,52);
+					}
+				}
+				.p3{
+					color: #aaa;
+					font-size: 14px;
+				}
+			}
+			.read2{
+				span {
+					font-size: 25px;
+					color: rgb(236,109,52);
+					font-weight: 500;
+
+				}
+			}
+		}
+		.arc-step3 {
+			padding-top: 30px;
+			margin-top: 30px;
+			background: #fff;
+			.arc-left{ 
+
+				.p0 {
+					font-size: 25px;
+					font-weight: 500;
+					color: #222;
+					span{
+						font-size: 24px;
+						font-weight: 700;
+						color: rgb(236,109,52);
+
+					}
+				}
+				.p1{
+					img{
+						width: 300px;
+						height: 300px;
+					}
+				}
+				.p2{
+					img{ 
+						width: 260px;
+						height: 84px;
+					}
+				}
+				.p3{
+					a {
+						color: rgb(65,123,191);
+						text-decoration: none;
+						font-size: 18px;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+				.p4{
+					button {
+						width: 135px;
+						height: 46px;
+						font-size: 22px;
+						color: #fff;
+						background: rgb(222,38,10);
+					}
+				}
+			}
+			.arc-right { 
+				img {
+					height: 550px;
+					text-align: center;
+				}
+				p {
+					margin-top: 15px;
+					font-size: 15px;
+				}
+			}
+			.zhifubao-arc-right {
+				margin-top: 70px;
+				.p0 {
+					color: rgb(236,109,52);
+					font-size: 18px;
+					font-weight: 500;
+				}
+				.p1,.p2 {
+					font-size: 15px;
+					color: #666;
+				}
+				.p3 {
+					a {
+						color: rgb(65,123,191);
+						text-decoration: none;
+						font-size: 18px;
+						&:hover{
+							text-decoration: underline;
+						}
+					}
+				}
+				.p4{
+					a {
+						display: inline-block;
+						width: 135px;
+						height: 46px;
+						font-size: 22px;
+						color: #fff;
+						background: rgb(222,38,10);
+					}
+				}
+			}
+		}
+
+	}
+
+	.footer {
+		.p1 {
+			color: #999;
+		}
+		.p2 {
+			cursor: pointer;
+		}
+	}
+
+}
+
+
+
+
+
+ 
